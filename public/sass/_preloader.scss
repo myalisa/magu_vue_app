@@ -1,0 +1,89 @@
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	width: 100vw;
+	height: 100vh;
+	background-color: $body-background;
+	z-index: 999;
+	animation-name: dispose;
+	animation-duration: .8s;
+	animation-delay: 10s;
+	animation-fill-mode: forwards;
+}
+
+#preloader-inner {
+  position: relative;
+  left: 50%;
+  margin-left: -90px;
+  top: 50%;
+  margin-top: -90px;
+}
+#preloader-inner::after, #preloader-inner::before {
+  content: "";
+  box-sizing: content-box;
+  position: absolute;
+  border-width: 2px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-animation: lds-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  animation: lds-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+#preloader-inner::after {
+  border-color: $main-color;
+}
+#preloader-inner::before {
+  border-color: $main-color;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+
+@-webkit-keyframes lds-ripple {
+  0% {
+    top: 90px;
+    left: 90px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    left: 15px;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
+}
+@keyframes lds-ripple {
+  0% {
+    top: 90px;
+    left: 90px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    left: 15px;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
+}
+
+@keyframes dispose {
+	0%{
+		opacity: 1;
+	}
+	99% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		height: 0;
+	}
+}

@@ -1,0 +1,80 @@
+.form-group {
+	position: relative;
+	.input-group-addon, .input-group-text {
+		background-color: transparent;
+		border: none;
+	}
+	.input-group {
+		.animated-form-control {
+			flex: 1 1 auto;
+			.form-control {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid $light-gray;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 0;
+	position: relative;
+
+	&:focus {
+		border: none;
+		border-bottom: 1px solid $main-color;
+		background-color: transparent;
+		box-shadow: none;
+	}
+}
+
+.animated-form-control {
+	position: relative;
+	&:after {
+		display: block;
+		content: "";
+		height: 3px;
+		background-color: $main-color;
+		width: 0;
+		transition: all .3s ease-in-out;;
+		margin: 0 auto;
+		position: relative;
+		bottom: 2px;
+		z-index: 3;
+	}
+	.form-control {
+		clear: both;
+		float: none;
+	}
+}
+
+.focus {
+	&:after {
+		width: 100%;
+	}
+}
+
+.form-control:focus {
+  outline: none !important;
+}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+select {
+	&.form-control[disabled] {
+		background-color: $body-background;
+	}
+}
+option {
+	background-color: $body-background;
+	color: contrast($body-background);
+}
+
+.no-cssanimations {
+	.animated-form-control .form-control {
+		display: inline-block;
+	}
+}

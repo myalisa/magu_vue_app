@@ -1,0 +1,145 @@
+.blog-post {
+	background: $body-background;
+	padding: 15px;
+	.blog-post-header {
+		margin-bottom: 15px;
+	}
+	h2 {
+		margin: 15px;
+	}
+	.categories {
+		text-align: center;
+		a {
+			text-transform: uppercase;
+			padding: 5px;
+			font-size: 12px;
+		}
+	}
+	.blog-post-author {
+		border-right: 1px solid $light-gray;
+		a {
+			color: $dark-gray;
+		}
+	}
+	.blog-post-author, .blog-post-date {
+		text-align: center;
+		color: $gray;
+		font-size: 14px;
+	}
+
+}
+
+.text-indent {
+	text-indent: 1em;
+}
+
+.blog-post-footer {
+	margin: 30px 0;
+	.tags {
+		margin-bottom: 30px;
+	}
+	.prev, .next {
+		color: $gray;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 767px) {
+	.blog-post {
+		margin: 50px;
+		margin-top: -65px;
+		position: relative;
+		.blog-post-author {
+			text-align: right;
+		}
+		.blog-post-date {
+			text-align: left;
+		}
+	}
+}
+
+.blog-comments {
+	margin-bottom: 30px;
+	h3 {
+		padding: 30px 5%;
+	}
+}
+.comment {
+	padding: 30px;
+	border: 1px solid $light-gray;
+	margin-bottom: 30px;
+	.comment {
+		border: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.comment-header {
+	margin-bottom: 30px;
+	.author {
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 2;
+		a {
+			color: $dark-gray;
+		}
+	}
+	time {
+		color: $gray;
+		font-size: 12px;
+		display: block;
+	}
+	.avatar {
+		width: 60px;
+		float: left;
+		margin: 0;
+		margin-right: 15px;
+	}
+}
+
+@media (min-width: 767px) {
+	.recent-text {
+		padding-left: 0;
+		h5 {
+			font-size: 12px;
+			padding: 0;
+			margin: 0;
+			text-align: left;
+		}
+		time {
+			color: $gray;
+			font-size: 12px;
+		}
+	}
+}
+
+.recent-post {
+	figure	{
+		position: relative;
+		.image {
+			overflow: hidden;
+			background: $main-color;
+		}
+		img {
+			position: relative;
+			transition: opacity 0.35s, transform 0.35s;
+			transform: scale(1.01);
+		}
+		figcaption {
+			transform: scale(1);
+			transform-style: preserve-3d;
+			backface-visibility: hidden;
+			margin: 1rem 2rem;
+			background: $body-background;
+			padding: 1.5rem;
+			font-size: 12px;
+			margin-top: -50px;
+		}
+
+		&:hover img {
+			transform: scale(1.12);
+			opacity: .6;
+		}
+	}
+}

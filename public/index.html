@@ -1,17 +1,290 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>magu_vue_app</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but magu_vue_app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <title>Magu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="home-page">
+  <div id="preloader">
+    <div id="preloader-inner"></div>
+  </div>
+  <header>
+    <div class="container d-none d-sm-block logo">
+      <a href="index.html"><img class="img-fluid" src="images/Logo.png" alt="Logo"></a>
+    </div>
+    <div class="container my-2 my-md-4">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand d-sm-none" href="index.html"><img class="img-fluid" src="images/Logo.png" alt=""></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-sm-center" id="main-navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <span class="dropdown-toggle"></span></a>
+              <ul class="dropdown-menu">
+                
+                <li>
+                  <a class="dropdown-item dropdown-toggle" href="/api/">Treatments <i class="fa fa-angle-right float-right"></i></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="page-simple.html">Simple Page</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="page-sidebar.html">Right Sidebar</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="services.html">Services</a>
+                    </li>
+                  </ul>
+                </li>
+                
+                
+                <li>
+                  <a class="dropdown-item dropdown-toggle" href="/api/strains">Strains<i class="fa fa-angle-right float-right"></i></a>
+                  
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features <span class="dropdown-toggle"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="login.html">Login</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="forms.html">Symptom Checker</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="buttons.html">Buttons</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="card.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="swiper-container">
+      <div class="parallax-bg" style="background-image:url(images/Home-Page.jpeg)" data-swiper-parallax="-15%"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-caption">
+            <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+              Magu Cannabis Consultant
+            </div>
+            <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+              <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-caption">
+            <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+              New Menu
+            </div>
+            <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+              <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-caption">
+            <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+              Lorem ipsum dolor sit
+            </div>
+            <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+              <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+            </div>
+          </div>
+        </div>
+      </div><!-- Add Pagination -->
+      <div class="swiper-pagination swiper-pagination-white"></div><!-- Add Navigation -->
+      <div class="swiper-button-prev swiper-button-white"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+  </section>
+  <section class="my-2 my-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
+          <h1>Our Chef</h1>
+          <p class="text-center animated fadeInLeft">Proin at cursus mi. Donec euismod lectus vel lacus luctus sollicitudin. Duis pulvinar magna nunc, eget lobortis eros auctor id.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 section-content animatedParent animateOnce"><img src="images/LeafGirl.jpg" class="img-fluid animated fadeIn" alt=""></div>
+        <div class="col-sm-12 col-md-6 section-content">
+          <h3>Mauris quis eros tortor</h3>
+          <p>Duis vel massa fringilla, suscipit risus sit amet, molestie eros. Proin at cursus mi. Donec euismod lectus vel lacus luctus sollicitudin. <strong>Duis pulvinar magna nunc, eget lobortis eros auctor id.</strong> Praesent hendrerit enim eu commodo interdum.</p>
+          <p><strong>Mauris quis eros tortor.</strong> Ut quis justo tellus. Duis vel massa fringilla, suscipit risus sit amet, molestie eros. Proin at cursus mi.</p>
+          <p>&nbsp;</p><button type="button" class="btn btn-primary btn-lg btn-block">More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="menu">
+    <div class="container-fluid pv-container">
+      <div class="row pv-block cover" style="background-image:url(images/Home-Page.jpg)"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 offset-md-1 menu-card page-indent">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-pattern shadow-b">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-content text-center py-2 py-md-4">
+          <h3 data-acos="fadeInUp">Make a Reservation</h3>
+          <p data-acos="fadeInUp" data-acos-delay=".5s">Duis vel massa fringilla, suscipit risus sit amet, molestie eros.</p>
+          <p>&nbsp;</p><button type="button" class="btn btn-primary">Find a table</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-2 my-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3>Recent works</h3>
+          <div class="portfolio grid-4">
+            <figure class="animateOnScroll" data-animation="fadeIn">
+              <img src="images/SunglassesGirl.jpg" alt="">
+              <figcaption>
+                <h2>Portfolio Item</h2>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+              </figcaption>
+            </figure>
+            <figure class="animateOnScroll" data-animation="fadeIn">
+              <img src="images/SunglassesGirl.jpg" alt="">
+              <figcaption>
+                <h2>Portfolio Item</h2>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+              </figcaption>
+            </figure>
+            <figure class="animateOnScroll" data-animation="fadeIn">
+              <img src="images/SunglassesGirl.jpg" alt="">
+              <figcaption>
+                <h2>Portfolio Item</h2>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+              </figcaption>
+            </figure>
+            <figure class="animateOnScroll" data-animation="fadeIn">
+              <img src="images/SunglassesGirl.jpg" alt="">
+              <figcaption>
+                <h2>Portfolio Item</h2>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-2 my-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 section-content text-center" data-acos="fadeInUp">
+          <h5>Location</h5>
+          <address>
+            <span>Bootstrapstrasse 17</span><br>
+            <span>10243 <strong>Berlin</strong></span>
+          </address>
+          <p><strong>Hours</strong><br>
+          M–Th 11–23<br>
+          F-Su 9–24</p>
+          <p>&nbsp;</p>
+          <p><a href="#"><i class="fab fa-facebook-f social-icon" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a></p>
+        </div>
+        <div class="col-sm-12 col-md-6 section-content"><img src="images/place.jpg" class="img-fluid" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="divider"></div>
+          <div class="text-center">
+            <a href="index.html"><img src="images/Logo.png" alt="" class="logo"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-9">
+          <ul class="footer-links">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="blog-index.html">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <p>© Magu </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script> 
+  <script src="javascript/acos.jquery.js"></script> 
+  <script src="javascript/swiper.jquery.min.js"></script> 
+  <script src="javascript/script.js"></script> 
+  <script>
+
+  var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    parallax: true,
+    speed: 600,
+    autoplay: 2500,
+    onSlideChangeStart: (function (swiper) {
+      var active = swiper.slides[swiper.activeIndex];
+      var animated = $(active).find('*[data-animation]');
+      $.each(animated, function (key, value) {
+        $(value).addClass($(value).data('animation'));
+        $(value).addClass('animated');
+      });
+    })
+  });
+  </script>
+</body>
 </html>
