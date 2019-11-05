@@ -7,6 +7,14 @@
     <h1>{{ symptom.name }}</h1>
     <br>
     <br>
+    <div class="col-md-4">
+      <ul>
+        <li>{{ symptom.treatment }}</li>
+        
+      </ul>
+    </div>
+
+
     <div class="form-group">
       <button type="button" class="btn btn-default btn-lg" v-on:click="yesSymptom()"><input type="submit" value="Yes"></button>
       <br>
@@ -90,10 +98,8 @@
         });
 
     },
-    
-    methods: {
-
-    yesSymptom: function() {
+      methods: {
+      yesSymptom: function() {
         var clientParams = {
           symptom_id: this.symptom.id
         };
@@ -104,18 +110,30 @@
         var currentSymptom = parseInt(this.$route.params.id);
         currentSymptom++;
         this.$router.push("/symptoms/" + currentSymptom);
-        // 104 - 106 need to be in no symptom method
       })
       .catch(error => {
         console.log(error.response.data);
         this.errors = error.response.data.errors;
       });
+    },
+
+    noSymptom: function() {
+        
+          var currentSymptom = parseInt(this.$route.params.id);
+          currentSymptom++;
+          this.$router.push("/symptoms/" + currentSymptom);
+        },
+  
+
+
+    symptomResult: function() {
+      if (currentSymptom === 12) {
+        this.$router.push("/strains")
+      }
+
+
     }
-    }
-  };
-
-
-
-
+  }
+};
 </script>
 <style></style>

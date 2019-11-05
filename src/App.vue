@@ -46,10 +46,10 @@
                       <router-link class="dropdown-item" to="/login">Login</router-link>
                     </li>
                     <li>
-                      <router-link class="dropdown-item" to="/symptoms/1">Symptom Checker</router-link>
+                      <router-link class="dropdown-item" to="/logout">Logout</router-link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="buttons.html">Buttons</a>
+                      <router-link class="dropdown-item" to="/symptoms/1">Symptom Checker</router-link>
                     </li>
                   </ul>
                 </li>
