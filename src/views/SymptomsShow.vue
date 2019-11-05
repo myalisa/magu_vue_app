@@ -6,13 +6,15 @@
   <section class="mb-5">
     <h1>{{ symptom.name }}</h1>
     <br>
+    <br>
     <div class="form-group">
-      <label class="checkbox-inline" v-on:click="nextSymptom()"><input type="checkbox" value="1" checked> Yes</label> 
+      <button type="button" class="btn btn-default btn-lg" v-on:click="yesSymptom()"><input type="submit" value="Yes"></button>
       <br>
       <br>
-
-      <label class="checkbox-inline" v-on:click="nextSymptom()"><input type="checkbox" value="2"> No</label> 
+      <button type="button" class="btn btn-default btn-lg" v-on:click="noSymptom()"><input type="submit" value="No"></button>
     </div>
+    <br>
+    <br>
 
 
     <h5>Go to next symptom</h5>
@@ -91,18 +93,23 @@
     
     methods: {
 
-    nextSymptom: function() {
+    yesSymptom: function() {
+        var clientParams = {
+          symptom_id: this.symptom.id
+        };
+
       axios
-      .post("/api/user_symptoms")
+      .post("/api/user_symptoms", clientParams)
       .then(response => {
+        var currentSymptom = parseInt(this.$route.params.id);
+        currentSymptom++;
         this.$router.push("/symptoms/" + currentSymptom);
+        // 104 - 106 need to be in no symptom method
       })
       .catch(error => {
+        console.log(error.response.data);
         this.errors = error.response.data.errors;
       });
-      var currentSymptom = parseInt(this.$route.params.id);
-      currentSymptom++;
-      this.$router.push("/symptoms/" + currentSymptom);
     }
     }
   };

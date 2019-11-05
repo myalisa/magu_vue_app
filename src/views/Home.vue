@@ -1,6 +1,55 @@
 <template>
   <div class="home">
     <section>
+      <div class="swiper-container">
+        <div class="parallax-bg" style="background-image:url(images/Home-Page.jpeg)" data-swiper-parallax="-15%"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-caption">
+              <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+                Zupa - Responsive Template
+              </div>
+              <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+                <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-caption">
+              <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+                New Menu
+              </div>
+              <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+                <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-caption">
+              <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+                Lorem ipsum dolor sit
+              </div>
+              <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+                <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div><!-- Add Navigation -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+      </div>
+    </section>
+    <!-- <section>
         <div class="swiper-container">
           <div class="parallax-bg" style="background-image:url(images/Home-Page.jpeg)" data-swiper-parallax="-15%"></div>
           <div class="swiper-wrapper">
@@ -43,12 +92,12 @@
                 </div>
               </div>
             </div>
-          </div><!-- Add Pagination -->
-          <div class="swiper-pagination swiper-pagination-white"></div><!-- Add Navigation -->
+          </div>
+          <div class="swiper-pagination swiper-pagination-white"></div>
           <div class="swiper-button-prev swiper-button-white"></div>
           <div class="swiper-button-next swiper-button-white"></div>
         </div>
-      </section>
+      </section> --> 
       <section class="my-2 my-md-5">
           <div class="container">
             <div class="row">
