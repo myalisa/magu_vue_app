@@ -123,16 +123,6 @@
           currentSymptom++;
           this.$router.push("/symptoms/" + currentSymptom);
         },
-  
-
-
-    // symptomResult: function() {
-    //   if (currentSymptom === 12) {
-    //     this.$router.push("/strains")
-    //   }
-
-
-    // }
   }
 };
 </script>

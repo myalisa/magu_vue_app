@@ -7,10 +7,10 @@
           <div class="swiper-slide">
             <div class="swiper-caption">
               <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                Zupa - Responsive Template
+                Magu Cannabis Consultant
               </div>
               <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Balance the female body and mind
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
                 <a href="card.html" class="btn btn-custom btn-lg">read more</a>

@@ -8,6 +8,8 @@ import Logout from "../views/Logout.vue";
 import SymptomsShow from "../views/SymptomsShow.vue";
 import StrainsIndex from "../views/StrainsIndex.vue";
 import StrainsShow from "../views/StrainsShow.vue";
+import UsersIndex from "../views/UsersIndex.vue";
+import UsersShow from "../views/UsersShow.vue";
 
 Vue.use(VueRouter)
 
@@ -19,7 +21,9 @@ const routes = [
     { path: "/logout", name: "logout", component: Logout },
     { path: "/symptoms/:id", name: "symptoms-show", component: SymptomsShow },
     { path: "/strains", name: "strains-index", component: StrainsIndex },
-    { path: "/strains/:id", name: "strains-show", component: StrainsShow }
+    { path: "/strains/:id", name: "strains-show", component: StrainsShow },
+    { path: "/users", name: "users-index", component: UsersIndex },
+    { path: "/users/:id", name: "users-show", component: UsersShow }
 ]
 
 const router = new VueRouter({

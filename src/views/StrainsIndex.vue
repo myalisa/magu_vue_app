@@ -9,156 +9,164 @@
         <div class="col-sm-12">
           <div class="portfolio grid-4">
             <figure>
-              <img src="images/ACDC.png" alt="">
+              <img src="images/Category1/ACDC.png" alt="">
               <figcaption>
                 <h2>ACDC</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Blue-Blood.png" alt="">
+              <img src="images/Category2/Blue-Blood-bud.png" alt="">
               <figcaption>
                 <h2>Blue Blood</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Blue-Jay-Way.jpg" alt="">
+              <img src="images/Category1/Blue-Jay-Way.jpg" alt="">
               <figcaption>
                 <h2>Blue Jay Way</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Cannatonic.jpg" alt="">
+              <img src="images/Category1/Cannatonic.jpg" alt="">
               <figcaption>
                 <h2>Cannatonic</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/CBD-Shark.jpg" alt="">
+              <img src="images/Category3/CBD-Shark.jpg" alt="">
               <figcaption>
                 <h2>CBD Shark</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Doctor-Doctor.jpg" alt="">
+              <img src="images/Category1/Doctor-Doctor.jpg" alt="">
               <figcaption>
                 <h2>Doctor Doctor</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/GI001.png" alt="">
+              <img src="images/Category1/GI001-Bud.jpg" alt="">
               <figcaption>
                 <h2>GI001</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Girl-Scout-Cookies.jpg" alt="">
+              <img src="images/Category2/Girl-Scout-Cookies.jpg" alt="">
               <figcaption>
                 <h2>Girl Scout Cookies</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Harlequin.jpg" alt="">
+              <img src="images/Category3/Harlequin.jpg" alt="">
               <figcaption>
                 <h2>Harlequin</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Hindu-Kush.jpg" alt="">
+              <img src="images/Category2/Hindu-Kush.jpg" alt="">
               <figcaption>
                 <h2>Hindu Kush</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/In-The-Pines.jpg" alt="">
+              <img src="images/Category3/In-The-Pines.jpg" alt="">
               <figcaption>
                 <h2>In The Pines</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Jamaican-Lion.png" alt="">
+              <img src="images/Category3/Jamaican-Lion.jpeg" alt="">
               <figcaption>
                 <h2>Jamaican Lion</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Northern-Lights.jpg" alt="">
+              <img src="images/Category2/Northern-Lights.jpg" alt="">
               <figcaption>
                 <h2>Northern Lights</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Oracle.jpg" alt="">
+              <img src="images/Category1/Oracle.jpg" alt="">
               <figcaption>
                 <h2>Oracle</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Pineapple-Sage.jpeg" alt="">
+              <img src="images/Category2/Pineapple-Sage.jpeg" alt="">
               <figcaption>
                 <h2>Pineapple Sage</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Remedy.jpg" alt="">
+              <img src="images/Category1/Remedy.jpg" alt="">
               <figcaption>
                 <h2>Remedy</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
               </figure>
               <figure>
-                <img src="images/Skywalker-OG.jpg" alt="">
+                <img src="images/Category2/Skywalker-OG.jpg" alt="">
                 <figcaption>
                   <h2>Skywalker OG</h2>
                   <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
                 </figcaption>
             </figure>
             <figure>
-              <img src="images/Sour-Tsunami.png" alt="">
+              <img src="images/Category3/Sour-Tsunami.jpg" alt="">
               <figcaption>
                 <h2>Sour Tsunami</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Star-Tonic.jpg" alt="">
+              <img src="images/Category3/Star-Tonic.jpg" alt="">
               <figcaption>
                 <h2>Star Tonic</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Suzy-Q.jpg" alt="">
+              <img src="images/Category1/Suzy-Q.jpg" alt="">
               <figcaption>
                 <h2>Suzy Q</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
             <figure>
-              <img src="images/The-Ox.png" alt="">
+              <img src="images/Category3/The-Ox-Bud.jpg" alt="">
               <figcaption>
                 <h2>The Ox</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
+
             <figure>
-              <img src="images/Valentine-X.jpg" alt="">
+              <img src="images/Category1/Valentine-X.jpg" alt="">
               <figcaption>
                 <h2>Valentine X</h2>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="images/Category3/RX.jpg" alt="">
+              <figcaption>
+                <h2>RX</h2>
                 <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
               </figcaption>
             </figure>
