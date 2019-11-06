@@ -15,7 +15,7 @@
                   <ul class="dropdown-menu">
                     
                     <li>
-                      <a class="dropdown-item dropdown-toggle" href="/api/">Treatments <i class="fa fa-angle-right float-right"></i></a>
+                      <router-link class="dropdown-item dropdown-toggle" to="/treatments">Treatments </router-link>
                       <ul class="dropdown-menu">
                         <li>
                           <router-link class="dropdown-item" to="/login">Login</router-link>

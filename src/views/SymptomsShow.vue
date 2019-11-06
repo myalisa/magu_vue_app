@@ -121,9 +121,15 @@
         
           var currentSymptom = parseInt(this.$route.params.id);
           currentSymptom++;
-          this.$router.push("/symptoms/" + currentSymptom);
+          if (currentSymptom === 12) {
+            this.$router.push("/users/current")
+          } else {
+            this.$router.push("/symptoms/" + currentSymptom);
+          }
         },
-  }
+    },
+
+
 };
 </script>
 <style></style>

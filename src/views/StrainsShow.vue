@@ -1,11 +1,11 @@
 <template>
-  <body>
-    <div id="preloader">
-      <div id="preloader-inner"></div>
-    </div>
     <div class="container">
       <div class="row portfolio-item">
         <div class="col-md-8">
+          <div class="col-lg-6">
+            <div>
+            </div>
+          </div>
           <div class="swiper-container gallery-top">
             <div class="swiper-wrapper"><img src="images/portfolio/item-1.jpg" alt="" class="swiper-slide"> <img src="images/portfolio/item-2.jpg" alt="" class="swiper-slide"> <img src="images/portfolio/item-3.jpg" alt="" class="swiper-slide"> <img src="images/portfolio/item-4.jpg" alt="" class="swiper-slide"></div><!-- Add Arrows -->
             <div class="swiper-button-next swiper-button-white"></div>
@@ -22,8 +22,9 @@
         </div>
         <div class="col-md-4">
           <article class="content">
-            <h1>Portfolio Item</h1>
-            <p class="text-justify">Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> Vestibulum maximus nunc et velit semper, at pellentesque ex semper. Morbi enim massa, porta ut elementum ut, gravida interdum lacus. Etiam enim justo, semper sed scelerisque id, tristique at risus.</p>
+            <h1>{{ strain.name }}</h1>
+            <p class="text-justify">{{ strain.description }}</p>
+            <img v-bind:src="strain.image_url" alt="">
             <p class="text-center social"><a href="#"><i class="fab fa-facebook social-icon" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-instagram social-icon" aria-hidden="true"></i></a></p>
           </article>
         </div>
@@ -53,71 +54,22 @@
         <div class="col-12">
           <h3>Recent works</h3>
           <div class="portfolio grid-4">
-            <figure class="animateOnScroll" data-animation="fadeIn">
-              <img src="images/portfolio/1.jpg" alt="">
-              <figcaption>
-                <h2>Portfolio Item</h2>
-                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
-              </figcaption>
-            </figure>
-            <figure class="animateOnScroll" data-animation="fadeIn">
-              <img src="images/portfolio/2.jpg" alt="">
-              <figcaption>
-                <h2>Portfolio Item</h2>
-                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
-              </figcaption>
-            </figure>
-            <figure class="animateOnScroll" data-animation="fadeIn">
-              <img src="images/portfolio/3.jpg" alt="">
-              <figcaption>
-                <h2>Portfolio Item</h2>
-                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
-              </figcaption>
-            </figure>
-            <figure class="animateOnScroll" data-animation="fadeIn">
-              <img src="images/portfolio/4.jpg" alt="">
-              <figcaption>
-                <h2>Portfolio Item</h2>
-                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
-              </figcaption>
-            </figure>
+
+                <figure class="animateOnScroll" data-animation="fadeIn">
+                  <img src="images/portfolio/1.jpg" alt="">
+                  <figcaption>
+                    <h2>Portfolio Item</h2>
+                    <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                  </figcaption>
+                </figure>
+            
           </div>
         </div>
       </div>
     </div>
-      </body>
-    </template>
-    <script>
+      
+</template>
 
-
-    if (Modernizr.cssanimations) {
-      var galleryTop = new Swiper('.gallery-top', {
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 10,
-        effect: 'fade',
-        loop: true,
-        loopedSlides: 4
-      });
-      var galleryThumbs = new Swiper('.gallery-thumbs', {
-        spaceBetween: 10,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        touchRatio: 0.2,
-        slideToClickedSlide: true,
-        loop: true,
-        loopedSlides: 4
-      });
-      galleryTop.params.control = galleryThumbs;
-      galleryThumbs.params.control = galleryTop;
-    } else {
-      // IE9
-      var galleryTop = new Swiper('.gallery-top', {
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-      });
-    }
-    </script>
 <script>
   var axios = require('axios');
   export default {

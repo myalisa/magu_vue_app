@@ -12,14 +12,14 @@
               <img src="images/Category1/ACDC.png" alt="">
               <figcaption>
                 <h2>ACDC</h2>
-                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><router-link to="/strains/13"></router-link>
               </figcaption>
             </figure>
             <figure>
               <img src="images/Category2/Blue-Blood-bud.png" alt="">
               <figcaption>
                 <h2>Blue Blood</h2>
-                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><router-link to="/strains/21"></router-link>
               </figcaption>
             </figure>
             <figure>
