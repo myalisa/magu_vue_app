@@ -6,6 +6,7 @@ import Signup from "../views/Signup.vue";
 import Login from "../views/Login.vue";
 import Logout from "../views/Logout.vue";
 import SymptomsShow from "../views/SymptomsShow.vue";
+import StrainsIndex from "../views/StrainsIndex.vue";
 import StrainsShow from "../views/StrainsShow.vue";
 
 Vue.use(VueRouter)
@@ -17,7 +18,8 @@ const routes = [
     { path: "/login", name: "login", component: Login },
     { path: "/logout", name: "logout", component: Logout },
     { path: "/symptoms/:id", name: "symptoms-show", component: SymptomsShow },
-    { path: "/strains", name: "strains-show", component: StrainsShow }
+    { path: "/strains", name: "strains-index", component: StrainsIndex },
+    { path: "/strains/:id", name: "strains-show", component: StrainsShow }
 ]
 
 const router = new VueRouter({

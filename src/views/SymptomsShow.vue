@@ -126,13 +126,13 @@
   
 
 
-    symptomResult: function() {
-      if (currentSymptom === 12) {
-        this.$router.push("/strains")
-      }
+    // symptomResult: function() {
+    //   if (currentSymptom === 12) {
+    //     this.$router.push("/strains")
+    //   }
 
 
-    }
+    // }
   }
 };
 </script>

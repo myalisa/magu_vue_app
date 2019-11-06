@@ -34,7 +34,7 @@
                     
                     
                     <li>
-                      <a class="dropdown-item dropdown-toggle" href="/api/strains">Strains<i class="fa fa-angle-right float-right"></i></a>
+                      <router-link class="dropdown-item dropdown-toggle" to="/strains">Strains<i class="fa fa-angle-right float-right"></i></router-link>
                       
                     </li>
                   </ul>
