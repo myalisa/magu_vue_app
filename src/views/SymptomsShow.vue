@@ -1,21 +1,21 @@
 <template>
 
 
-
 <div class="container symptoms-show">
   <section class="mb-5">
     <h1>Do you experience {{ symptom.name }}?</h1>
     <br>
     <br>
-    <div class="col-sm-4">
-      <ul>
-        <li>{{ symptom.treatment }}</li>
-        
-      </ul>
-    </div>
 
 
     <div class="form-group">
+    <div class="col-md-3">
+      <!-- <ul> -->
+        <img src="/images/icon.png">
+        <li>{{ symptom.treatment }}</li>
+        
+      <!-- </ul> -->
+    </div>
       <button type="button" class="btn btn-default btn-lg" v-on:click="yesSymptom()"><input type="submit" value="Yes"></button>
       <br>
       <br>
@@ -23,10 +23,17 @@
     </div>
     <br>
     <br>
+    <br>
 
 
-    <h5>Go to next symptom</h5>
+
+    
     <nav class="text-center">
+      <br>
+      <br>
+      <h5>Go to next symptom</h5>
+      <br>
+
       <ul class="pagination justify-content-center">
         <li class="page-item">
           <router-link aria-label="Previous" class="page-link" to="/symptoms/:id"><span aria-hidden="true">«</span></router-link>
@@ -132,4 +139,15 @@
 
 };
 </script>
-<style></style>
+<style>
+  
+  .col-md-3 {
+    position: fixed;
+    top: 0;
+    height: 20%;
+    width: 20%;
+    size:x-small;
+    border-top: 1px;
+    
+  }
+</style>

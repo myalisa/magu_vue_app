@@ -2,8 +2,8 @@
     <div class="container user">
       <div class="row">
         <div class="col-sm-12 col-md-10 offset-md-1">
-          <h2>{{ user.name }}</h2>
-          <h2>Your Magu Cannabis Collection</h2>
+          <h3>{{ user.name }}</h3>
+          <h3>Your Magu Cannabis Collection</h3>
           <p>Based off of your indicated symptoms, these are the best strains we recommend to balance the endocannabinoid system in your body. The THC and CBD percentages should be noted in case the exact strain name is not available at your local dispensary, but your local budtender can look at your list, and find a similar strain for you.</p>
         </div>
         <div class="col-sm-12 col-md-10 offset-md-1">
@@ -12,7 +12,7 @@
               
               <img v-bind:src="strain.image_url" alt="">
               <div>
-                <h2>{{ strain.name }}</h2>
+                <h3>{{ strain.name }}</h3>
                 <p>THC Percentage: {{ strain.thc_percentage }}%</p>
                 <p>CBD Percentage: {{ strain.cbd_percentage }}%</p>
                 

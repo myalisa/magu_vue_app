@@ -57,7 +57,7 @@
                   <router-link class="nav-link" to="/about">The Story</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <router-link class="nav-link" to="/contact">Contact</router-link>
                 </li>
               </ul>
             </div>
@@ -78,16 +78,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-9">
-              <ul class="footer-links">
-                <li>
-                  <a href="blog-index.html">Blog</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
+            
             <div class="col-sm-3">
               <p>© Magu </p>
             </div>

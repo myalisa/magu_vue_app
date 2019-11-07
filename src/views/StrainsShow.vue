@@ -1,32 +1,35 @@
 <template>
     <div class="container">
-      
+       <img v-bind:src="strain.image_url" alt=""><img v-bind:src="strain.image_url" alt=""><img v-bind:src="strain.image_url" alt="">
       <div class="row content">
-        <div class="col-sm-8 col-md-12">
-          <h1>{{ strain.name }}</h1>
+
+        
+          <!-- <div class="text-muted"> -->
+            <br>
+          
+          
           <br>
+          <blockquote>
+          <p>{{ strain.effects }}</p>
+          
+        </blockquote>
+          <div class="col-sm-8 col-md-12">
+             <h1>{{ strain.name }}</h1>
+          <br>
+          <article>
           <p>{{ strain.description }}</p>
-          <br>
-          <!-- <img v-bind:src="strain.image_url" alt=""> -->
-          <img
-        <h4>Effects of {{ strain.name }}</h4>
-        <br>
-        <ul>
-          <li><h5>{{ strain.effects }}</h5></li>
-        </ul>
+        </article>
           
           
-          <h4>Chemical Makeup</h4>
           
-          {{ strain.thc_percentage }}
-          {{ strain.cbd_percentage }}
-            
           
-        </div>
+          <h5>THC Percentage: {{ strain.thc_percentage }}%<br>CBD Percentage: {{ strain.cbd_percentage }}%</h5>     
+        <!-- </div> -->
       </div>
+      </div>
+      <img src="/images/Treatments1.jpg" alt="">
       <div class="row">
-        <div class="col-12">
-          <h3>Recent works</h3>
+        <div class="col-12">  
           <div class="portfolio grid-4">
 
                 <figure class="animateOnScroll" data-animation="fadeIn">
@@ -71,3 +74,6 @@
   };
 
 </script>
+<style>
+
+</style>
