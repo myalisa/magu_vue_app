@@ -4,10 +4,10 @@
 
 <div class="container symptoms-show">
   <section class="mb-5">
-    <h1>{{ symptom.name }}</h1>
+    <h1>Do you experience {{ symptom.name }}?</h1>
     <br>
     <br>
-    <div class="col-md-4">
+    <div class="col-sm-4">
       <ul>
         <li>{{ symptom.treatment }}</li>
         

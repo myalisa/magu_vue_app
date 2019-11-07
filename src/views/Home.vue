@@ -2,44 +2,44 @@
   <div class="home">
     <section>
       <div class="swiper-container">
-        <div class="parallax-bg" style="background-image:url(images/Home-Page.jpeg)" data-swiper-parallax="-15%"></div>
+        <div class="parallax-bg" style="background-image:url('/images/Home-Page.jpeg')" data-swiper-parallax="-15%"></div>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="swiper-caption">
               <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                Magu Cannabis Consultant
+                Magu 
               </div>
               <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                Balance the female body and mind
+                 Cannabis Consultant for Women
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+                <router-link href="card.html" class="btn btn-custom btn-lg" to="/symptoms/1">Get Started</router-link>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-caption">
               <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                New Menu
+                Balance
               </div>
               <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                for the female body and mind 
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+                <router-link href="card.html" class="btn btn-custom btn-lg" to="/symptoms/1">Discover Strains</router-link>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-caption">
               <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                Lorem ipsum dolor sit
+                Find your Ideal Cannabis Collection
               </div>
               <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                The most effective CBD-heavy, THC-heavy, and 1:1 ratio strains
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <a href="card.html" class="btn btn-custom btn-lg">read more</a>
+                <router-link href="card.html" class="btn btn-custom btn-lg" to="/symptoms/1">Treat Yourself</router-link>
               </div>
             </div>
           </div>
@@ -49,55 +49,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
       </div>
     </section>
-    <!-- <section>
-        <div class="swiper-container">
-          <div class="parallax-bg" style="background-image:url(images/Home-Page.jpeg)" data-swiper-parallax="-15%"></div>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="swiper-caption">
-                <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                  Magu Cannabis Consultant
-                </div>
-                <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </div>
-                <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                  <a href="card.html" class="btn btn-custom btn-lg">read more</a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-caption">
-                <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                  New Menu
-                </div>
-                <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </div>
-                <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                  <a href="card.html" class="btn btn-custom btn-lg">read more</a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-caption">
-                <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                  Lorem ipsum dolor sit
-                </div>
-                <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </div>
-                <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                  <a href="card.html" class="btn btn-custom btn-lg">read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination swiper-pagination-white"></div>
-          <div class="swiper-button-prev swiper-button-white"></div>
-          <div class="swiper-button-next swiper-button-white"></div>
-        </div>
-      </section> --> 
+    
       <section class="my-2 my-md-5">
           <div class="container">
             <div class="row">
@@ -209,6 +161,38 @@ export default {
     };
   },
   created: function() {},
-  methods: {}
+  methods: {},
+  mounted: function () {
+
+        const plugin = document.createElement("script");
+        plugin.setAttribute(
+          "src",
+          "javascript/swiper.jquery.min.js",
+          // "javascript/script.js"
+        );
+        plugin.async = true;
+        document.head.appendChild(plugin);
+
+        var swiper = new Swiper('.swiper-container', {
+          pagination: '.swiper-pagination',
+          paginationClickable: true,
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
+          parallax: true,
+          speed: 600,
+          autoplay: 2500,
+          onSlideChangeStart: (function (swiper) {
+            var active = swiper.slides[swiper.activeIndex];
+            var animated = $(active).find('*[data-animation]');
+            $.each(animated, function (key, value) {
+              $(value).addClass($(value).data('animation'));
+              $(value).addClass('animated');
+            });
+          })
+        });
+      }
+  
 };
+
+
 </script>
