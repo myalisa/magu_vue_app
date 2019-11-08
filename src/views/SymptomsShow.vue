@@ -27,55 +27,56 @@
 
 
 
+      <nav class="text-center">
+        <br>
+        <br>
+        <h5>Go to next symptom</h5>
+        <br>
+      
     
-    <nav class="text-center">
-      <br>
-      <br>
-      <h5>Go to next symptom</h5>
-      <br>
-
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <router-link aria-label="Previous" class="page-link" to="/symptoms/:id"><span aria-hidden="true">«</span></router-link>
-        </li>
-        <li class="active page-item">
-          <router-link class="page-link" to="/symptoms/1">1</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/2">2</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/3">3</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/4">4</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/5">5</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/6">6</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/7">7</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/8">8</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/9">9</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/10">10</router-link>
-        </li>
-        <li class="page-item">
-          <router-link class="page-link" to="/symptoms/11">11</router-link>
-        </li>
-        <li class="page-item">
-          <router-link aria-label="Next" class="page-link" to="/symptoms/:id"><span aria-hidden="true">»</span></router-link>
-        </li>
-      </ul>
-    </nav>
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <router-link aria-label="Previous" class="page-link" to="/symptoms/:id"><span aria-hidden="true">«</span></router-link>
+          </li>
+          <li v-bind:class="{ active: $route.params.id == 1 }" class="page-item">
+            <router-link class="page-link" to="/symptoms/1">1</router-link>
+          </li>
+          <li v-bind:class="{ active: $route.params.id == 2 }" class="page-item">
+            <router-link class="page-link" to="/symptoms/2">2</router-link>
+          </li>
+          <li v-bind:class="{ active: $route.params.id == 3 }" class="page-item">
+            <router-link class="page-link" to="/symptoms/3">3</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/4">4</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/5">5</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/6">6</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/7">7</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/8">8</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/9">9</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/10">10</router-link>
+          </li>
+          <li class="page-item">
+            <router-link class="page-link" to="/symptoms/11">11</router-link>
+          </li>
+          <li class="page-item">
+            <router-link aria-label="Next" class="page-link" to="/symptoms/:id"><span aria-hidden="true">»</span></router-link>
+          </li>
+        </ul>
+      </nav>
+    
   </section>
 </div>
 </template>
@@ -85,7 +86,8 @@
   export default {
     data: function() {
       return {
-        symptom: {}
+        symptom: {},
+        isActive: true
       };
     },
     beforeRouteUpdate (to, from, next) {
@@ -140,14 +142,18 @@
 };
 </script>
 <style>
+
+  .active {
+  background-color: red;
+  }
   
-  .col-md-3 {
+  /*col-md-3 {
     position: fixed;
     top: 0;
     height: 20%;
     width: 20%;
     size:x-small;
-    border-top: 1px;
+    border-top: 1px;*/
     
-  }
+  /*}*/
 </style>

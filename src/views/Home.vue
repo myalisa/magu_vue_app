@@ -57,10 +57,11 @@
             <div class="row">
               <div class="col-sm-12 col-md-6 section-content animatedParent animateOnce"><img src="images/LeafGirl.jpg" class="img-fluid animated fadeIn" alt=""></div>
               <div class="col-sm-12 col-md-6 section-content">
-                <h3>Mauris quis eros tortor</h3>
-                <p>Her name translates to “Hemp Maiden”. In Ancient China, the cannabis plant was highly valued in the Taoist religion. She is often depicted carrying a basket of hemp and peaches, which were said to have healing abilities.</p>
-                <p><strong>Mauris quis eros tortor.</strong> Ut quis justo tellus. Duis vel massa fringilla, suscipit risus sit amet, molestie eros. Proin at cursus mi.</p>
-                <p>&nbsp;</p><button type="button" class="btn btn-primary btn-lg btn-block">More</button>
+                <h3>No Flower is the Same</h3>
+                <br>
+                <p>We have developed a system identifying the two main active chemicals in cannabis (THC & CBD) to analyze your unique symptoms, and give you the ultimate collection of strains that will provide balanced releif without any negative psychological effects. Not enough women know how to use cannabis to maintain a healthy balance of the endocannabinoid system (ECS) to treat common symptoms of menstruation. Yes, THC can help you feel relaxed and ease muscle cramping, but it also has the potential to worsen hormonal anxiety. Some strains that are ideal for treating physical discomfort and pain, can leave you feeling sluggish and unprodcutive. We found strains with the optimal chemical makeup to treat your symptoms, and leave you feeling re-charged and uplifted. </p>
+                <p><strong>Knowing Your Body</strong> The Magu system organizes strains by Category based on their chemical makeup. These categories are CBD-Heavy, THC-Heavy, and 1:1 Ratio Strains</p>
+                <router-link to="/about">&nbsp;<button type="button" class="btn btn-primary btn-lg btn-block">More</button></router-link>
               </div>
             </div>
           </div>

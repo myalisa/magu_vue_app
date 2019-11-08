@@ -10,7 +10,7 @@ import StrainsIndex from "../views/StrainsIndex.vue";
 import StrainsShow from "../views/StrainsShow.vue";
 import UsersIndex from "../views/UsersIndex.vue";
 import UsersShow from "../views/UsersShow.vue";
-import TreatmentsIndex from "../views/TreatmentsIndex.vue";
+import SymptomsIndex from "../views/SymptomsIndex.vue";
 import Contact from "../views/Contact.vue";
 
 Vue.use(VueRouter)
@@ -26,7 +26,7 @@ const routes = [
     { path: "/strains/:id", name: "strains-show", component: StrainsShow },
     { path: "/users", name: "users-index", component: UsersIndex },
     { path: "/users/:id", name: "users-show", component: UsersShow },
-    { path: "/treatments", name: "treatments-index", component: TreatmentsIndex },
+    { path: "/symptoms", name: "symptoms-index", component: SymptomsIndex },
     { path: "/contact", name: "contact", component: Contact }
 ]
 

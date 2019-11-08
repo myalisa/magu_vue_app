@@ -2,17 +2,24 @@
   <div class="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 offset-lg-2 col-md-12">
+        <div class="col-md-12 d-none d-md-block">
+          <div class="cover lead-photo" style="background-image: url('images/Maguflying.jpg');"></div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12 col-lg-10 offset-lg-1 page-indent">
           <article class="content">
-            <h1>Magu 麻姑 “Hemp Maiden”</h1>
-            <p class="text-justify">Taoist Goddess and symbolic protector of women in Chinese mythology.</p>
-            <blockquote>
-              Her name translates to “Hemp Maiden”. In Ancient China, the cannabis plant was highly valued in the Taoist religion. She is often depicted carrying a basket of hemp and peaches, which were said to have healing abilities.
-            </blockquote>
-            <div class="col-sm-12 col-md-6 section-content animatedParent animateOnce"><img src="images/Magu-Story.jpg" class="img-fluid animated fadeIn" alt=""><img src="images/Magu-2.jpg" class="img-fluid animated fadeIn" alt=""></div>
-            
-            <p>Suspendisse sed nisl nibh. Donec eu elit eu urna semper luctus a ut tellus. Etiam eget ex a purus tempus dictum. Integer rhoncus est sem, vitae elementum mi semper et. Donec in laoreet lacus. Suspendisse dapibus congue sapien, a pretium sem vehicula aliquam. Etiam commodo tristique est ac dapibus.</p>
-            <img src="images/High-Times.jpg" class="img-fluid animated fadeIn" alt="">
+            <h1>about us</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum maximus nunc</strong> et velit semper, at pellentesque ex semper. Morbi enim massa, porta ut elementum ut, gravida interdum lacus. Etiam enim justo, semper sed scelerisque id, tristique at risus. Suspendisse sed nisl nibh. Donec eu elit eu urna semper luctus a ut tellus. Etiam eget ex a purus tempus dictum. Integer rhoncus est sem, vitae elementum mi semper et. Donec in laoreet lacus. Suspendisse dapibus congue sapien, a pretium sem vehicula aliquam. Etiam commodo tristique est ac dapibus.</p>
+            <section class="about mt-4">
+              <div class="row header">
+                <div class="col-xs-12 col-sm-8 offset-sm-2">
+                  <h2>Meet the team</h2>
+                  <p class="text-center">Suspendisse sed nisl nibh. Donec eu elit eu urna semper luctus a ut tellus.</p>
+                </div>
+              </div>
+            </section>
           </article>
         </div>
       </div>

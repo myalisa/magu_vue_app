@@ -11,36 +11,7 @@
             <div class="collapse navbar-collapse justify-content-sm-center" id="main-navbar">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <span class="dropdown-toggle"></span></a>
-                  <ul class="dropdown-menu">
-                    
-                    <li>
-                      <router-link class="dropdown-item dropdown-toggle" to="/treatments">Treatments </router-link>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <router-link class="dropdown-item" to="/login">Login</router-link>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="page-sidebar.html">Right Sidebar</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="about-us.html">About Us</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="services.html">Services</a>
-                        </li>
-                      </ul>
-                    </li>
-                    
-                    
-                    <li>
-                      <router-link class="dropdown-item dropdown-toggle" to="/strains">Strains<i class="fa fa-angle-right float-right"></i></router-link>
-                      
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features <span class="dropdown-toggle"></span></a>
+                  <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Basics <span class="dropdown-toggle"></span></a>
                   <ul class="dropdown-menu">
                     <li>
                       <router-link class="dropdown-item" to="/login">Login</router-link>
@@ -49,12 +20,24 @@
                       <router-link class="dropdown-item" to="/logout">Logout</router-link>
                     </li>
                     <li>
+                      <router-link class="dropdown-item dropdown-toggle" to="/symptoms">Treatment </router-link>
+                    </li>
+                    <li>
+                      <router-link class="dropdown-item dropdown-toggle" to="/strains">Strains</router-link>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medicate <span class="dropdown-toggle"></span></a>
+                  <ul class="dropdown-menu">
+                    <li>
                       <router-link class="dropdown-item" to="/symptoms/1">Symptom Checker</router-link>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link" to="/about">The Story</router-link>
+                  <router-link class="nav-link" to="/about">Magu Story</router-link>
                 </li>
                 <li class="nav-item">
                   <router-link class="nav-link" to="/contact">Contact</router-link>
