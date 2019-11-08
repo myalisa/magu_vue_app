@@ -47,28 +47,28 @@
           <li v-bind:class="{ active: $route.params.id == 3 }" class="page-item">
             <router-link class="page-link" to="/symptoms/3">3</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 4 }" class="page-item">
             <router-link class="page-link" to="/symptoms/4">4</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 5 }" class="page-item">
             <router-link class="page-link" to="/symptoms/5">5</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 6 }" class="page-item">
             <router-link class="page-link" to="/symptoms/6">6</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 7 }" class="page-item">
             <router-link class="page-link" to="/symptoms/7">7</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 8 }" class="page-item">
             <router-link class="page-link" to="/symptoms/8">8</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 9 }" class="page-item">
             <router-link class="page-link" to="/symptoms/9">9</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 10 }" class="page-item">
             <router-link class="page-link" to="/symptoms/10">10</router-link>
           </li>
-          <li class="page-item">
+          <li v-bind:class="{ active: $route.params.id == 11 }" class="page-item">
             <router-link class="page-link" to="/symptoms/11">11</router-link>
           </li>
           <li class="page-item">
@@ -119,6 +119,11 @@
         var currentSymptom = parseInt(this.$route.params.id);
         currentSymptom++;
         this.$router.push("/symptoms/" + currentSymptom);
+        if (currentSymptom === 12) {
+            this.$router.push("/users/current")
+          } else {
+            this.$router.push("/symptoms/" + currentSymptom);
+          }
       })
       .catch(error => {
         console.log(error.response.data);
@@ -144,8 +149,10 @@
 <style>
 
   .active {
-  background-color: red;
+  background-color: grey;
   }
+
+
   
   /*col-md-3 {
     position: fixed;
