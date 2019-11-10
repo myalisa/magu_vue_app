@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h2>Cannabis Collection</h2>
+          <h2>Magu Flower Collection</h2>
           <p></p>
         </div>
         <div class="col-sm-12">

@@ -27,18 +27,13 @@
         <!-- </div> -->
       </div>
       </div>
-      <img src="/images/Treatments1.jpg" alt="">
-      <div class="row">
-        <div class="col-12">  
-          <div class="portfolio grid-4">
 
-                <figure class="animateOnScroll" data-animation="fadeIn">
-                  <img src="images/portfolio/1.jpg" alt="">
-                  <figcaption>
-                    <h2>Portfolio Item</h2>
-                    <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
-                  </figcaption>
-                </figure>
+      <div class="portfolio grid-4">
+        <div class="row">
+          <div class="col-8">  
+           
+
+
             
           </div>
         </div>

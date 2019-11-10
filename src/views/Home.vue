@@ -59,8 +59,8 @@
               <div class="col-sm-12 col-md-6 section-content">
                 <h3>No Flower is the Same</h3>
                 <br>
-                <p>We have developed a system identifying the two main active chemicals in cannabis (THC & CBD) to analyze your unique symptoms, and give you the ultimate collection of strains that will provide balanced releif without any negative psychological effects. Not enough women know how to use cannabis to maintain a healthy balance of the endocannabinoid system (ECS) to treat common symptoms of menstruation. Yes, THC can help you feel relaxed and ease muscle cramping, but it also has the potential to worsen hormonal anxiety. Some strains that are ideal for treating physical discomfort and pain, can leave you feeling sluggish and unprodcutive. We found strains with the optimal chemical makeup to treat your symptoms, and leave you feeling re-charged and uplifted. </p>
-                <p><strong>Knowing Your Body</strong> The Magu system organizes strains by Category based on their chemical makeup. These categories are CBD-Heavy, THC-Heavy, and 1:1 Ratio Strains</p>
+                <p>We have developed a system identifying the two main active chemicals in cannabis (THC & CBD) to analyze your unique symptoms, and give you the ultimate collection of strains that will provide balanced releif without any negative psychological effects. Not enough women know how to use cannabis to maintain a healthy balance of the endocannabinoid system (ECS) to treat common symptoms of menstruation. Yes, THC can help you feel relaxed and ease muscle cramping, but with fluctuating hormones throught the mentrual cycle, it also has the potential to worsen hormonal anxiety. Some strains that are ideal for treating physical discomfort and pain, can leave you feeling sluggish and unprodcutive. We found strains with the optimal chemical makeup to treat your symptoms, and leave you feeling re-charged and uplifted. </p>
+                <p><strong>Knowing Your Body</strong> The Magu system organizes strains by category based on their chemical makeup. These categories are CBD-Heavy, THC-Heavy, and 1:1 Ratio Strains</p>
                 <router-link to="/about">&nbsp;<button type="button" class="btn btn-primary btn-lg btn-block">More</button></router-link>
               </div>
             </div>
@@ -77,15 +77,15 @@
                   <figure class="animateOnScroll" data-animation="fadeIn">
                     <img src="/images/SunglassesGirl.jpg" alt="">
                     <figcaption>
-                      <h2>Portfolio Item</h2>
-                      <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                      <h2>Cannabis & Your Period</h2>
+                      <p>The best benefits of using CBD for your period</p><a href="https://www.foriawellness.com/blogs/learn/natural-pain-relief-cramps-cbd-thc">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="animateOnScroll" data-animation="fadeIn">
                     <img src="/images/pink-bud.jpg" alt="">
                     <figcaption>
-                      <h2>Portfolio Item</h2>
-                      <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                      <h2>PMS</h2>
+                      <p>How can cannabis help with premenstrual syndrome?</p><a href="https://goop.com/wellness/sexual-health/can-cannabis-help-with-pms/">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="animateOnScroll" data-animation="fadeIn">

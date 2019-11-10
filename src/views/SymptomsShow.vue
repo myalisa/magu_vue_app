@@ -13,13 +13,13 @@
       <!-- <ul> -->
         <img src="/images/icon.png">
         <li>{{ symptom.treatment }}</li>
-        
-      <!-- </ul> -->
     </div>
       <button type="button" class="btn btn-default btn-lg" v-on:click="yesSymptom()"><input type="submit" value="Yes"></button>
       <br>
       <br>
       <button type="button" class="btn btn-default btn-lg" v-on:click="noSymptom()"><input type="submit" value="No"></button>
+        
+      
     </div>
     <br>
     <br>
@@ -151,16 +151,4 @@
   .active {
   background-color: grey;
   }
-
-
-  
-  /*col-md-3 {
-    position: fixed;
-    top: 0;
-    height: 20%;
-    width: 20%;
-    size:x-small;
-    border-top: 1px;*/
-    
-  /*}*/
 </style>
