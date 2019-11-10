@@ -78,7 +78,7 @@
                     <img src="/images/SunglassesGirl.jpg" alt="">
                     <figcaption>
                       <h2>Cannabis & Your Period</h2>
-                      <p>The best benefits of using CBD for your period</p><a href="https://www.foriawellness.com/blogs/learn/natural-pain-relief-cramps-cbd-thc">View more</a>
+                      <p>The best benefits of using CBD</p><a href="https://www.foriawellness.com/blogs/learn/natural-pain-relief-cramps-cbd-thc">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="animateOnScroll" data-animation="fadeIn">
@@ -91,15 +91,15 @@
                   <figure class="animateOnScroll" data-animation="fadeIn">
                     <img src="/images/twogirls.jpg" alt="">
                     <figcaption>
-                      <h2>Portfolio Item</h2>
-                      <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                      <h2>Endometriosis</h2>
+                      <p>How to manage the pain</p><a href="https://www.leafly.com/news/health/cannabis-and-endometriosis-research">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="animateOnScroll" data-animation="fadeIn">
                     <img src="/images/rollup.jpg" alt="">
                     <figcaption>
-                      <h2>Portfolio Item</h2>
-                      <p>Dis-moi ce que tu manges, je te dirai ce que tu es</p><a href="portfolio-item.html">View more</a>
+                      <h2>Mood Stability</h2>
+                      <p>The ways cannabis can help you out of your pms funk</p><a href="https://www.green-flower.com/articles/health/7-reasons-cannabis-is-great-for-pms">View more</a>
                     </figcaption>
                   </figure>
                 </div>
