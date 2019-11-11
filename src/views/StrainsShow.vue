@@ -1,6 +1,7 @@
 <template>
     <div class="container">
        <img v-bind:src="strain.image_url" alt=""><img v-bind:src="strain.image_url" alt=""><img v-bind:src="strain.image_url" alt="">
+
       <div class="row content">
 
         
@@ -19,11 +20,12 @@
           <article>
           <p>{{ strain.description }}</p>
         </article>
+        <br>
           
           
           
           
-          <h5>THC Percentage: {{ strain.thc_percentage }}%<br>CBD Percentage: {{ strain.cbd_percentage }}%</h5>     
+          <h2>THC Percentage: {{ strain.thc_percentage }}%<br>CBD Percentage: {{ strain.cbd_percentage }}%</h2>     
         <!-- </div> -->
       </div>
       </div>
@@ -31,7 +33,7 @@
       <div class="portfolio grid-4">
         <div class="row">
           <div class="col-8">  
-           
+
 
 
             

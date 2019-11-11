@@ -1,22 +1,28 @@
 <template>
     <div class="container user">
       <div class="row">
+        
         <div class="col-sm-12 col-md-10 offset-md-1">
-          <h3>{{ user.name }}</h3>
-          <h3>Your Magu Cannabis Collection</h3>
-          <p>Based off of your indicated symptoms, these are the best strains we recommend to balance the endocannabinoid system in your body. The THC and CBD percentages should be noted in case the exact strain name is not available at your local dispensary, but your local budtender can look at your list, and find a similar strain for you.</p>
+          <h1>Hey, {{ user.name }}</h1>
+          
+        
+          <br>
+          <!-- <h4>Your Magu Cannabis Collection</h4>  -->
+          <p><strong>Based off of your symptoms,</strong> these are the best strains we recommend to balance the endocannabinoid system in your body. Note the THC and CBD percentages indicated in case the exact strain name is not available at your local dispensary. Your local budtender can look at your list and find a similar strain for you.</p>
+          <br>
+          
         </div>
-        <div class="col-sm-12 col-md-10 offset-md-1">
           <div class="portfolio grid-2 row">
-            <div class="col-lg-6" v-for="strain in user.strains_by_symptoms">
+            <div class="col-lg-3" v-for="strain in user.strains_by_symptoms">
               
               <img v-bind:src="strain.image_url" alt="">
-              <div>
-                <h3>{{ strain.name }}</h3>
-                <p>THC Percentage: {{ strain.thc_percentage }}%</p>
-                <p>CBD Percentage: {{ strain.cbd_percentage }}%</p>
+              <div class="tab-item">
+                <router-link v-bind:to="'/strains/' + strain.id"><button type="button" class="btn btn-info btn-lg btn-block">{{ strain.name }}</button></router-link>
+                <br>
+                <!-- <p>THC Percentage: {{ strain.thc_percentage }}%</p>
+                <p>CBD Percentage: {{ strain.cbd_percentage }}%</p> -->
                 
-                <router-link v-bind:to="'/strains/' + strain.id">Description</router-link>
+
               </div>
             </div>
           </div>
@@ -26,6 +32,12 @@
 </template>
 
 <style>
+  
+    .router-link {
+      color: grey;
+      display: block;
+    }
+      
 </style>
 
 <script>

@@ -13,7 +13,7 @@
                  Cannabis Consultant for Women
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <router-link href="card.html" class="btn btn-custom btn-lg" to="/symptoms/1">Get Started</router-link>
+                <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Get Started</router-link>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@
                 for the female body and mind 
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <router-link href="card.html" class="btn btn-custom btn-lg" to="/symptoms/1">Discover Strains</router-link>
+                <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Discover Strains</router-link>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 The most effective CBD-heavy, THC-heavy, and 1:1 ratio strains
               </div>
               <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <router-link href="card.html" class="btn btn-custom btn-lg" to="/symptoms/1">Treat Yourself</router-link>
+                <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Treat Yourself</router-link>
               </div>
             </div>
           </div>
@@ -60,7 +60,8 @@
                 <h3>No Flower is the Same</h3>
                 <br>
                 <p>We have developed a system identifying the two main active chemicals in cannabis (THC & CBD) to analyze your unique symptoms, and give you the ultimate collection of strains that will provide balanced releif without any negative psychological effects. Not enough women know how to use cannabis to maintain a healthy balance of the endocannabinoid system (ECS) to treat common symptoms of menstruation. Yes, THC can help you feel relaxed and ease muscle cramping, but with fluctuating hormones throught the mentrual cycle, it also has the potential to worsen hormonal anxiety. Some strains that are ideal for treating physical discomfort and pain, can leave you feeling sluggish and unprodcutive. We found strains with the optimal chemical makeup to treat your symptoms, and leave you feeling re-charged and uplifted. </p>
-                <p><strong>Knowing Your Body</strong> The Magu system organizes strains by category based on their chemical makeup. These categories are CBD-Heavy, THC-Heavy, and 1:1 Ratio Strains</p>
+                <br>
+                <p><strong>Knowing Your Body</strong> The Magu system organizes strains by category based on their chemical makeup. These categories are CBD-Heavy, THC-Heavy, and 1:1 Ratio Strains</p><br>
                 <router-link to="/about">&nbsp;<button type="button" class="btn btn-primary btn-lg btn-block">More</button></router-link>
               </div>
             </div>

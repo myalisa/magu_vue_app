@@ -3,16 +3,8 @@
     <div class="row portfolio-item">
       <div class="col-md-8">
 
-        <!-- <img src="/images/Treatment-Main.jpg"> -->
-        <!-- <div class="col-sm-4 col-md-8"> -->
-          <img src="/images/border.jpg">
-          <img src="/images/border.jpg">
-          <img src="/images/border.jpg">
-          <img src="/images/border.jpg">
-          <img src="/images/border.jpg">
-          <img src="/images/border.jpg">
-          <img src="/images/border.jpg">
-          <br>
+          
+          <h1>Treatments by Symptom</h1>
           <br>
           <button type="button" class="btn btn-default btn-lg btn-block" v-on:click="isHidden = !isHidden">PMS</button>
           <br>
@@ -64,8 +56,10 @@
       </div>
       <div class="col-md-4">
         <article class="content">
-          <h1>Treatments by Symptom</h1>
-          <p>Everyone experiences different symptoms throughout their menstrual cycle, and not all require the same medical treatment using cannabis. Vestibulum maximus nunc et velit semper, at pellentesque ex semper. Morbi enim massa, porta ut elementum ut, gravida interdum lacus. Etiam enim justo, semper sed scelerisque id, tristique at risus.</p>
+          <img src="/images/ovaries.jpg">
+          <br>
+
+          <p>Everyone experiences different symptoms throughout their menstrual cycle, and not all require the same medical treatment using cannabis. Vestibulum maximus nunc et velit semper,</p>
           <br>
           <img src="/images/missgrass.jpeg">
           <br>
