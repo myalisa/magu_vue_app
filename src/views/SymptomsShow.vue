@@ -8,7 +8,7 @@
     <br>
     <br>
     
-    <!-- <div class="form-group"> -->
+    
     <div class="col-md-24">
       <!-- <ul> -->
         <img src="/images/icon.png">  
@@ -108,6 +108,13 @@
         .get("/api/symptoms/" + this.$route.params.id)
         .then(response => {
           this.symptom = response.data;
+        });
+
+      axios
+        .get("/api/users/current")
+        .then(response => {})
+        .catch(error => {
+          this.$router.push("/login");
         });
 
     },

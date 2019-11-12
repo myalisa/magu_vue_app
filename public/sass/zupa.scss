@@ -61,10 +61,10 @@ header {
 	}
 }
 a {
-	color: $main-color;
+	color: #ff80a0;
 	&:focus,
 	&:hover {
-		color: darken($main-color, 10%);
+		color: #ff80a0;
 	}
 }
 h1,
@@ -168,7 +168,7 @@ blockquote {
 		line-height: 1.4;
 		&:hover {
 			background: $body-background;
-			color: $main-color;
+			color: #ff80a0;
 		}
 	}
 	.dropdown-menu {
@@ -194,7 +194,7 @@ blockquote {
 		a {
 			&:hover {
 				background: $body-background;
-				color: $main-color;
+				color: #ff80a0;
 				&:after {
 					width: 100%;
 				}
@@ -203,7 +203,7 @@ blockquote {
 				display: block;
 				content: "";
 				height: 1px;
-				background-color: $main-color;
+				background-color: #ff80a0;
 				width: 0;
 				transition: all 0.2s ease-in-out;
 				margin: 0 auto;
@@ -331,7 +331,7 @@ blockquote {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-color: rgba($main-color, 0.3);
+		background-color: #ff80a0;
 	}
 }
 
@@ -387,13 +387,13 @@ blockquote {
 			&:focus,
 			&:hover {
 				background: none;
-				color: $main-color;
+				color: #ff80a0;
 			}
 			&:after {
 				display: block;
 				content: "";
 				height: 1px;
-				background-color: $main-color;
+				background-color: #ff80a0;
 				width: 0;
 				transition: all 0.3s ease-in-out;
 				margin: 0 auto;
@@ -471,7 +471,7 @@ blockquote {
 	transition: all 0.3s linear;
 	margin: 0 2px;
 	&:hover {
-		background: $main-color;
+	 background: #ff80a0;
 	}
 }
 
@@ -637,7 +637,7 @@ blockquote {
 	.service {
 		position: relative;
 		padding: 3rem 2rem;
-		color: color-yiq($main-color);
+		color: color-yiq(#ff80a0);
 		&:after {
 			content: '';
 			position: absolute;
@@ -645,7 +645,7 @@ blockquote {
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background: $main-color;
+			background: #ff80a0;
 			z-index: 0;
 			transition: .3s all ease;
 			margin: 0.5rem;

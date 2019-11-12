@@ -3,7 +3,7 @@
       <div class="row">
         
         <div class="col-sm-12 col-md-10 offset-md-1">
-          <h1>Hey, {{ user.name }}</h1>
+          <h1>Hi there,{{ user.name }}</h1>
           
         
           <br>
@@ -17,10 +17,9 @@
               
               <img v-bind:src="strain.image_url" alt="">
               <div class="tab-item">
-                <router-link v-bind:to="'/strains/' + strain.id"><button type="button" class="btn btn-info btn-lg btn-block">{{ strain.name }}</button></router-link>
+                <router-link v-bind:to="'/strains/' + strain.id"><button type="button" class="btn btn-primary btn-md btn-block">{{ strain.name }}</button></router-link>
                 <br>
-                <!-- <p>THC Percentage: {{ strain.thc_percentage }}%</p>
-                <p>CBD Percentage: {{ strain.cbd_percentage }}%</p> -->
+                
                 
 
               </div>
@@ -51,9 +50,12 @@ export default {
   created: function() {
           console.log("it worked")
           axios
-            .get("/api/users/" + this.$route.params.id)
+            .get("/api/users/current")
             .then(response => {
               this.user = response.data;
+            })
+            .catch(error => {
+              this.$router.push("/login");
             });
 
           },

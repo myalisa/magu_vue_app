@@ -2,16 +2,11 @@
     <div class="container">
        <img v-bind:src="strain.image_url" alt=""><img v-bind:src="strain.image_url" alt=""><img v-bind:src="strain.image_url" alt="">
 
-      <div class="row content">
-
-        
-          <!-- <div class="text-muted"> -->
-            <br>
-          
-          
-          <br>
-          <blockquote>
-          <p>{{ strain.effects }}</p>
+        <div class="row content">
+        <br>
+        <br>
+        <blockquote>
+        <p>{{ strain.effects }}</p>
           
         </blockquote>
           <div class="col-sm-8 col-md-12">
@@ -20,14 +15,11 @@
           <article>
           <p>{{ strain.description }}</p>
         </article>
-        <br>
-          
-          
-          
+        <br> 
           
           <h2>THC Percentage: {{ strain.thc_percentage }}%<br>CBD Percentage: {{ strain.cbd_percentage }}%</h2>     
-        <!-- </div> -->
-      </div>
+       
+        </div>
       </div>
 
       <div class="portfolio grid-4">

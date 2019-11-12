@@ -19,18 +19,18 @@
   background-color: $background;
   &:focus, &.focus {
     color: $color;
-    background-color: darken($background, 10%);
+    background-color: darken($background, 5%);
   }
   &:hover {
     color: $color;
-    background-color: darken($background, 10%);
+    background-color: darken($background, 5%);
   }
   &:active, &.active, &.is-checked, .open > .dropdown-toggle {
     color: $color;
-    background-color: darken($background, 10%);
+    background-color: darken($background, 5%);
     &:hover, &:focus, &.focus {
       color: $color;
-      background-color: darken($background, 17%);
+      background-color: darken($background, 10%);
     }
   }
   &.disabled, &[disabled], fieldset[disabled] & {
@@ -74,17 +74,17 @@
 		color: $link-color; 
 	}
   	&:hover { 
-  		color: darken($link-color, 10%);
+  		color: darken(#ff80a0, 5%);
   	}
   	&:active, &.active, .open > .dropdown-toggle {
-    	color: darken($link-color, 10%);
+    	color: darken(#ff80a0, 5%);
 	    &:hover, &:focus, &.focus {
-	      color: darken($link-color, 17%);
+	      color: darken(#ff80a0, 5%);
 	    }
   	}
   	&.disabled, &[disabled], fieldset[disabled] & {
     	&:hover, &:focus, &.focus {
-      		color: $link-color;
+      		color: #ff80a0;
     	}
   	}
 }
@@ -113,8 +113,8 @@
 		border: 1px solid $dark-gray;
 		border-width: 1px 0;
 		&:hover, &:focus {
-			background-color: $main-color;
-			border: 1px solid $main-color;
+			background-color: #ff80a0;
+			border: 1px solid #ff80a0;
 			border-width: 1px 0;
 		}
 	}
@@ -126,7 +126,7 @@
 		transition: all .15s ease-in;
 		border: 1px solid $dark-gray;
 		border-width: 1px 0;
-		color: $main-color;
+		color: #ff80a0;
 		border-radius: 0;
 		&:hover {
 			background-color: $light-gray;

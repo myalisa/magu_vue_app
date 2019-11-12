@@ -3,48 +3,48 @@
     <section>
       <div class="swiper-container">
         <div class="parallax-bg" style="background-image:url('/images/Home-Page.jpeg')" data-swiper-parallax="-15%"></div>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="swiper-caption">
-              <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                Magu 
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-caption">
+                <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+                  Magu 
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+                   Cannabis Consultant for Women
+                </div>
+                <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Get Started</router-link>
+                </div>
               </div>
-              <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                 Cannabis Consultant for Women
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-caption">
+                <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+                  Balance
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+                  for the female body and mind 
+                </div>
+                <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Discover Strains</router-link>
+                </div>
               </div>
-              <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Get Started</router-link>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-caption">
+                <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
+                  Recharge 
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
+                  The most effective CBD-heavy, THC-heavy, and 1:1 ratio strains
+                </div>
+                <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
+                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Treat Yourself</router-link>
+                </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="swiper-caption">
-              <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                Balance
-              </div>
-              <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                for the female body and mind 
-              </div>
-              <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Discover Strains</router-link>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-caption">
-              <div class="title" data-swiper-parallax="-100" data-animation="fadeInDownBig">
-                Stop Stressin'
-              </div>
-              <div class="subtitle" data-swiper-parallax="-200" data-animation="fadeIn">
-                The most effective CBD-heavy, THC-heavy, and 1:1 ratio strains
-              </div>
-              <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Treat Yourself</router-link>
-              </div>
-            </div>
-          </div>
-        </div><!-- Add Pagination -->
-        <div class="swiper-pagination swiper-pagination-white"></div><!-- Add Navigation -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="swiper-button-next swiper-button-white"></div>
       </div>
@@ -130,7 +130,7 @@ export default {
         plugin.setAttribute(
           "src",
           "javascript/swiper.jquery.min.js",
-          // "javascript/script.js"
+          
         );
         plugin.async = true;
         document.head.appendChild(plugin);
