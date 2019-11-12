@@ -26,7 +26,7 @@
                   for the female body and mind 
                 </div>
                 <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Discover Strains</router-link>
+                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Get Started</router-link>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@
                   The most effective CBD-heavy, THC-heavy, and 1:1 ratio strains
                 </div>
                 <div class="text" data-swiper-parallax="-300" data-animation="fadeInUpBig">
-                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Treat Yourself</router-link>
+                  <router-link href="card.html" class="btn btn-primary btn-lg" to="/symptoms/1">Get Started</router-link>
                 </div>
               </div>
             </div>

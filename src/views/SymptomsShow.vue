@@ -104,57 +104,58 @@
 
     },
     created: function() {
-      axios
-        .get("/api/symptoms/" + this.$route.params.id)
-        .then(response => {
-          this.symptom = response.data;
-        });
 
       axios
         .get("/api/users/current")
-        .then(response => {})
+        .then(response => {
+          console.log("user logged in");
+          axios
+            .get("/api/symptoms/" + this.$route.params.id)
+            .then(response => {
+              this.symptom = response.data;
+            });
+        })
         .catch(error => {
+          console.log("user logged out");
           this.$router.push("/login");
         });
 
     },
-      methods: {
+    methods: {
       yesSymptom: function() {
         var clientParams = {
           symptom_id: this.symptom.id
         };
 
-      axios
-      .post("/api/user_symptoms", clientParams)
-      .then(response => {
+        axios
+          .post("/api/user_symptoms", clientParams)
+          .then(response => {
+            var currentSymptom = parseInt(this.$route.params.id);
+            currentSymptom++;
+            this.$router.push("/symptoms/" + currentSymptom);
+            if (currentSymptom === 12) {
+                this.$router.push("/users/current")
+              } else {
+                this.$router.push("/symptoms/" + currentSymptom);
+              }
+          })
+          .catch(error => {
+            console.log(error.response.data);
+            this.errors = error.response.data.errors;
+          });
+      },
+
+      noSymptom: function() {
+          
         var currentSymptom = parseInt(this.$route.params.id);
         currentSymptom++;
-        this.$router.push("/symptoms/" + currentSymptom);
         if (currentSymptom === 12) {
-            this.$router.push("/users/current")
-          } else {
-            this.$router.push("/symptoms/" + currentSymptom);
-          }
-      })
-      .catch(error => {
-        console.log(error.response.data);
-        this.errors = error.response.data.errors;
-      });
-    },
-
-    noSymptom: function() {
-        
-          var currentSymptom = parseInt(this.$route.params.id);
-          currentSymptom++;
-          if (currentSymptom === 12) {
-            this.$router.push("/users/current")
-          } else {
-            this.$router.push("/symptoms/" + currentSymptom);
-          }
-        },
-    },
-
-
+          this.$router.push("/users/current")
+        } else {
+          this.$router.push("/symptoms/" + currentSymptom);
+        }
+      }
+    }
 };
 </script>
 <style>

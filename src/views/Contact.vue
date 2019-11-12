@@ -24,7 +24,7 @@
               <address>
                 e-mail: <a href="#">joe@example.com</a>
               </address>
-              <p class="social"><a href="#"><i class="fab fa-facebook social-icon-small" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-twitter social-icon-small" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-instagram social-icon-small" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-dribbble social-icon-small" aria-hidden="true"></i></a> <a href="#"><i class="fab fa-youtube social-icon-small" aria-hidden="true"></i></a></p>
+              <img src="/images/contactpage.jpg">
             </div>
             <div class="col-sm-8">
               <form name="contact_form" id="contact_form" method="post" class="form-horizontal">

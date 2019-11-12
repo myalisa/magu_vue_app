@@ -23,7 +23,7 @@
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Category1/Blue-Jay-Way.jpg" alt="">
+              <img src="images/Category1/bluejayway.jpg" alt="">
               <figcaption>
                 <h2>Blue Jay Way</h2>
                 <p>CBD-Heavy Strain</p><router-link to="/strains/16"></router-link>
@@ -65,7 +65,7 @@
               </figcaption>
             </figure>
             <figure>
-              <img src="images/Category3/Harlequin.jpg" alt="">
+              <img src="images/Category3/harlequin.jpg" alt="">
               <figcaption>
                 <h2>Harlequin</h2>
                 <p>1:1 Ratio Strain</p><router-link to="/strains/10"></router-link>
@@ -168,6 +168,12 @@
               <figcaption>
                 <h2>RX</h2>
                 <p>1:1 Ratio Strain</p><router-link to="/strains/12"></router-link>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="/images/merakilabbe.jpg">
+              <figcaption>
+                <h2>Back</h2><router-link to="/"></router-link>
               </figcaption>
             </figure>
           </div>

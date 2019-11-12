@@ -3,12 +3,12 @@
       <div class="row">
         
         <div class="col-sm-12 col-md-10 offset-md-1">
-          <h1>Hi there,{{ user.name }}</h1>
+          <h1>Welcome, {{ user.name }}</h1>
           
         
           <br>
           <!-- <h4>Your Magu Cannabis Collection</h4>  -->
-          <p><strong>Based off of your symptoms,</strong> these are the best strains we recommend to balance the endocannabinoid system in your body. Note the THC and CBD percentages indicated in case the exact strain name is not available at your local dispensary. Your local budtender can look at your list and find a similar strain for you.</p>
+          <p><strong>Based off of your symptoms,</strong> these are the best strains we recommend to balance the endocannabinoid system in your body. Note the THC and CBD percentages indicated in case the exact strain is not available at your local dispensary. Your local budtender can look at your list and find a similar strain for you.</p>
           <br>
           
         </div>
@@ -17,7 +17,7 @@
               
               <img v-bind:src="strain.image_url" alt="">
               <div class="tab-item">
-                <router-link v-bind:to="'/strains/' + strain.id"><button type="button" class="btn btn-primary btn-md btn-block">{{ strain.name }}</button></router-link>
+                <router-link v-bind:to="'/strains/' + strain.id"><button type="button" class="btn btn-custom btn-md btn-block">{{ strain.name }}</button></router-link>
                 <br>
                 
                 

@@ -3,7 +3,6 @@
     <div class="container">
       <form v-on:submit.prevent="submit()">
         <div class="col-xs-10 offset-xs-1 col-sm-6 offset-sm-3">
-                
           <h1>Login</h1>
           <br>
           <ul>
@@ -21,6 +20,7 @@
             <label>Password:</label>
             <input type="password" class="form-control" v-model="password">
           </div>
+          <img src="/images/login.jpg">
           <input type="submit" class="btn btn-primary" value="Submit">
         </div>
       </form>

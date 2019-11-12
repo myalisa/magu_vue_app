@@ -61,9 +61,8 @@
             </div>
           </div>
           <div class="row">
-            
-            <div class="col-sm-3">
-              <p>© Magu </p>
+            <div class="col-sm-2">
+              <p>© Magu Artwork by: <a href="https://www.instagram.com/merakilabbe/?hl=en">Merakilabbe</a></p>
             </div>
           </div>
         </div>
