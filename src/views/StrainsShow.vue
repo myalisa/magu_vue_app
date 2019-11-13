@@ -18,17 +18,16 @@
         <br> 
           
           <h2>THC Percentage: {{ strain.thc_percentage }}%<br>CBD Percentage: {{ strain.cbd_percentage }}%</h2>     
-       
         </div>
       </div>
-
-      <div class="portfolio grid-4">
-        <div class="row">
-          <div class="col-8">  
+      
+        <div class="col-12"> 
+        <img src="/images/merakilabbe.jpg"><br>
+          
+        <router-link to="/users/current"><button type="button" class="btn btn-custom btn-md">Back</button></router-link> 
+  
+        </div>
     
-          </div>
-        </div>
-      </div>
     </div>
       
 </template>
