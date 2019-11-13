@@ -19,13 +19,18 @@
               <div class="tab-item">
                 <router-link v-bind:to="'/strains/' + strain.id"><button type="button" class="btn btn-custom btn-md btn-block">{{ strain.name }}</button></router-link>
                 <br>
-                
-                
 
               </div>
             </div>
           </div>
         </div>
+        
+          <img src="/images/merakilabbe.jpg">
+          <br>
+          
+            <router-link to="/"><button type="button" class="btn btn-custom btn-sm">Home</button></router-link>
+          
+        
       </div>
     </div>
 </template>

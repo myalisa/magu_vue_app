@@ -25,10 +25,7 @@
       <div class="portfolio grid-4">
         <div class="row">
           <div class="col-8">  
-
-
-
-            
+    
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@
             </div>
           </nav>
         </div>
-      </header>
+    </header>
 
       <router-view></router-view>
       
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-      </footer>
+    </footer>
   </div>
 </template>
 

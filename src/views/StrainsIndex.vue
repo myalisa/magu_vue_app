@@ -171,14 +171,28 @@
               </figcaption>
             </figure>
             <figure>
-              <img src="/images/merakilabbe.jpg">
+              <img src="images/Category2/granddaddypurple.jpg">
               <figcaption>
-                <h2>Back</h2><router-link to="/"></router-link>
+                <h2>Granddaddy Purple</h2>
+                <p>THC-Heavy Strain</p>
               </figcaption>
             </figure>
+            <div class="left">
+              
+              <img src="images/merakilabbe.jpg"><br>
+                
+              <router-link to="/"><button type="button" class="btn btn-custom btn-sm">Home</button></router-link>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
   </body>
 </template>
+
+<style>
+  .left {
+    position: center;
+  }
+</style>
